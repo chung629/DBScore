@@ -9,8 +9,8 @@ import java.util.Vector;
 public class DatabaseManager {
 	private static String className = "org.mariadb.jdbc.Driver";
 	private static String url = "jdbc:mariadb://127.0.0.1:3306/MyDB";
-	private static String ID = "root";
-	private static String PW = "hyunho8700";
+	private static String ID = "id";
+	private static String PW = "pwd";
 	
 	static {
 		try {
